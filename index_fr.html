@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Mon Portfolio</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaqueries.css">
 </head>
@@ -12,9 +12,9 @@
         <div class="logo">Faty Mutesi</div>
         <div>
             <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projects">Projets</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -28,10 +28,10 @@
                 <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <li><a href="#about" onclick="toggleMenu()">À propos</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Expérience</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projets</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>                
             </div>
         </div>
     </nav>
@@ -40,18 +40,18 @@
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Z"/></svg>
             <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-280q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Z"/></svg>
         </button>
-        <button id="language-toggle" onclick="toggleLanguage()">FR</button>
+        <button id="language-toggle" onclick="toggleLanguage()">EN</button>
         <div class="section__pic-container ">
             <img src="./assets/profile.png" alt="Faty Mutesi profile picture">
         </div>
         <div class="section__text">
-            <p class="section__text__p1">Hello, I'm</p>
+            <p class="section__text__p1">Bonjour, je suis</p>
             <h1 class="title">Faty Mutesi</h1>
-            <p class="section__text__p2">Frontend Developer</p>
+            <p class="section__text__p2">Développeuse Frontend</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/mutesi-faty.pdf')">Download CV</button>
-                <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
-            </div>
+                <button class="btn btn-color-2" onclick="window.open('./assets/mutesi-faty.pdf')">Télécharger le CV</button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">Coordonnées</button>
+            </div>            
             <div id="socials-container">
                 <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon" onclick="location.href='https://www.linkedin.com/in/faty-mutesi-511b12242/'">
                 <img src="./assets/github.png" alt="My Github profile" class="icon" onclick="location.href='https://github.com/fatymut'">
@@ -59,8 +59,8 @@
         </div>
     </section>
     <section id="about">
-        <p class="section__text__p1">Get To Know More</p>
-        <h1 class="title">About Me</h1>
+        <p class="section__text__p1">En savoir plus</p>
+        <h1 class="title">À propos de moi</h1>        
         <div class="section-container">
             <div class=" about-pic-container section__pic-container ">
                 <img src="./assets/pexels-danny-meneses-340146-943096.jpg" alt="profile picture" class="about-pic">
@@ -69,70 +69,70 @@
                 <div class="about-containers">
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="experience icon" class="icon">
-                        <h3>Experience</h3>
-                        <p>1-month internship<br>Frontend Development</p>
+                        <h3>Expérience</h3>
+                        <p>Stage de 1 mois<br>Développement Frontend</p>                        
                     </div>
                     <div class="details-container">
                         <img src="./assets/education.png" alt="education icon" class="icon">
-                        <h3>Education</h3>
-                        <p>Bac+2 in Web Development (3W Academy) <br> Bac+1 in Computer Science (ESGI)</p>
+                        <h3>Éducation</h3>
+                        <p>Bac+2 en Développement Web (3W Academy) <br> Bac+1 en Informatique (ESGI)</p>                        
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>I am a passionate front-end developer and a first-year student at ESGI (École Supérieure de Génie Informatique), specializing in computer science. Currently, I am seeking a work-study program to apply and deepen my skills in HTML, CSS, JavaScript, and frameworks like React while contributing to real-world projects. My goal is to create responsive, user-friendly websites and continue growing as a developer in a dynamic team environment.</p>
+                    <p>Je suis une développeuse front-end passionnée et étudiante en première année à l'ESGI (École Supérieure de Génie Informatique), spécialisée en informatique. Actuellement, je recherche un programme en alternance pour appliquer et approfondir mes compétences en HTML, CSS, JavaScript, ainsi qu'avec des frameworks comme React, tout en contribuant à des projets concrets. Mon objectif est de créer des sites web responsives et conviviaux et de continuer à évoluer en tant que développeuse au sein d'une équipe dynamique.</p>
                 </div>
             </div>
         </div>
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'">
     </section>
     <section id="experience">
-        <p class="section__text__p1">Explore My</p>
-        <h1 class="title">Experience</h1>
+        <p class="section__text__p1">Découvrez mon</p>
+        <h1 class="title">Expérience</h1>        
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-container">
-                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <h2 class="experience-sub-title">Développement Front-end</h2>
                     <div class="article-container">
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>HTML</h3>
-                                <p>Experienced</p>
+                                <p>Expérimenté</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>CSS</h3>
-                                <p>Experienced</p>
+                                <p>Expérimenté</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>SASS</h3>
-                                <p>Intermediate</p>
+                                <p>Intermédiaire</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>JavaScript</h3>
-                                <p>Basic</p>
+                                <p>De base</p>                                
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>React</h3>
-                                <p>Intermediate</p>
+                                <p>Intermédiaire</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Bootstrap</h3>
-                                <p>Intermediate</p>
+                                <p>Intermédiaire</p>
                             </div>
                         </article>
                     </div>
@@ -151,21 +151,21 @@
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Node JS</h3>
-                                <p>Intermediate</p>
+                                <p>Intermédiaire</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Express JS</h3>
-                                <p>Intermediate</p>
+                                <p>Intermédiaire</p>
                             </div>
                         </article>
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
                             <div>
                                 <h3>Git</h3>
-                                <p>Intermediate</p>
+                                <p>Intermédiaire</p>
                             </div>
                         </article>
                     </div>
@@ -175,15 +175,15 @@
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'">
     </section>
     <section id="projects">
-        <p class="section__text__p1">Browse My Recent</p>
-        <h1 class="title">Projects</h1>
+        <p class="section__text__p1">Parcourez Mes Projets Récents</p>
+        <h1 class="title">Projets</h1>        
         <div class="experience-details-container">
             <div class="about-containers">
             <div class="details-container color-containter">
                 <div class="article-container">
                     <img src="./assets/project-1.png" alt="project 1" class="project-img">
                 </div>
-                <h2 class="experience-sub-title project-title">Project One</h2>
+                <h2 class="experience-sub-title project-title">Projet Un</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
@@ -193,7 +193,7 @@
                 <div class="article-container">
                     <img src="./assets/project-2.png" alt="project 2" class="project-img">
                 </div>
-                <h2 class="experience-sub-title project-title">Project Two</h2>
+                <h2 class="experience-sub-title project-title">Project Deux</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
@@ -203,7 +203,7 @@
                 <div class="article-container">
                     <img src="./assets/project-3.png" alt="project 3" class="project-img">
                 </div>
-                <h2 class="experience-sub-title project-title">Project Three</h2>
+                <h2 class="experience-sub-title project-title">Project Trois</h2>
                 <div class="btn-container">
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
                     <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Live Demo</button>
@@ -214,8 +214,8 @@
         <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'">
     </section>
     <section id="contact">
-        <p class="section__text__p1">Get In Touch</p>
-        <h1 class="title">Contact Me</h1>
+        <p class="section__text__p1">Prenez Contact</p>
+        <h1 class="title">Contactez-moi</h1>        
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets//email.png" alt="email icon" class="icon contact-icon email-icon">
@@ -231,14 +231,14 @@
         <nav>
             <div class="nav-links-container">
                 <ul class="nav-links">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#experience">Expérience</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>                    
                 </ul>
             </div>
         </nav>
-        <p>Copyright &#169; 2024 Faty Mutesi. All Rights Reserved</p>
+        <p>Copyright &#169; 2024 Faty Mutesi. Tous droits réservés.</p>
     </footer>
   <script src="script.js" defer></script>   
 </body>

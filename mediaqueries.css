@@ -37,6 +37,47 @@
     .about-containers{
         margin-top: 0;
     }
+    .about-pic{
+        max-width: 80%;         
+    }
+
+    .about-pic-container{
+        display: flex;
+    justify-content: center; 
+    align-items: center;   
+    width: 100%;             
+    margin: 20px;
+    }
+    
+    #theme-switch {
+        position: sticky; 
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    #theme-switch.hidden {
+        opacity: 0;
+        transform: translateY(-50px); 
+        pointer-events: none; 
+    }
+
+    #language-toggle {
+        position: sticky;
+        margin-top: 5px;
+        top: 80px; 
+        right: 20px;
+        cursor: pointer;
+        z-index: 999; 
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+
+    #language-toggle.hidden {
+        opacity: 0;
+        transform: translateY(-50px);
+        pointer-events: none;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -85,7 +126,4 @@
     .title{
         font-size: 2rem;
     }
-    /* .text-container{
-        text-align: justify;
-    } */
 }
